@@ -163,7 +163,7 @@ export default function LoginForm() {
         <motion.div variants={fadeUpVariants} className="text-center mt-6 md:mt-8 pt-4 md:pt-6 border-t border-base-content/10">
           <p className="text-xs md:text-sm text-base-content/60 font-medium">
             Don't have an account?{" "}
-            <Link to="/user/signup" className="text-primary hover:text-primary-focus font-bold transition-colors underline-offset-4 hover:underline">
+            <Link to="/signup" className="text-primary hover:text-primary-focus font-bold transition-colors underline-offset-4 hover:underline">
               Sign up for free
             </Link>
           </p>

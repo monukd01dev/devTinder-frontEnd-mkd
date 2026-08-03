@@ -7,7 +7,7 @@ const ProtectedRoute = function ({ children }) {
     console.log(`Log from ProtectedRoue` ,user)
     //* if user doesn't exits the throw the hacker back to the loginPage and delete the Navigation History
     if(!user){
-        return <Navigate to='/user/login' replace/>
+        return <Navigate to='/login' replace/>
     }
     //? when everything is oky then returnt the children
     return children

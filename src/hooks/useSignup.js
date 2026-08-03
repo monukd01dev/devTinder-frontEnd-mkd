@@ -28,7 +28,7 @@ const useSignup = () =>{
             // FIX: 'toasterId' ki jagah 'id' use kiya taaki loading toast hide hoke success ban jaye
             toast.success(`Account Created Successfully!!`, { id: toastId });
 
-            navigate('/user/login');
+            navigate('/login');
 
             // Thoda delay diya taaki page change hone ke baad aaram se dikhe
             setTimeout(() => {

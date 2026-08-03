@@ -10,7 +10,7 @@ import ErrorPage from './pages/ErrorPage.jsx' // 🚨 Tera naya Error Page
 createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
     <Provider store={appStore}>
-      <BrowserRouter basename='/app'>
+      <BrowserRouter>
         
         {/* 🚨 THE SUPREME SHIELD */}
         <ErrorBoundary 

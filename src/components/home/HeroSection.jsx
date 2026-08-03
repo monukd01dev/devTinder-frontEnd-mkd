@@ -31,7 +31,7 @@ export default function HeroSection() {
                 </p>
                 <button 
                     className="btn btn-primary btn-lg rounded-full px-10 shadow-[0_0_25px_rgba(var(--primary),0.4)] hover:scale-105 transition-transform font-bold text-base"
-                    onClick={() => navigate('/user/feed')}
+                    onClick={() => navigate('/app/feed')}
                 >
                     Start Swiping
                 </button>

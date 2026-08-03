@@ -36,7 +36,7 @@ function useLoginForm() {
             console.log("Login Successfull", response)
             //adding the loggedInUser data in the userSlice
             dispatcher(addUser(response.data))
-            navigate('/user/feed')
+            navigate('/app/feed')
 
         } catch (error) {
 

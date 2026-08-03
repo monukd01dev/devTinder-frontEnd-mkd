@@ -5,7 +5,7 @@ const GuestRoute = function({children}){
     const user = useSelector(store => store.user);
     console.log(`Log from GuestRoue` ,user)
     if(user){
-        return <Navigate to='/user/feed' replace/>
+        return <Navigate to='/app/feed' replace/>
     }
 
     return children

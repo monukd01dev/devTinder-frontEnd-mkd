@@ -33,7 +33,7 @@ const useLogout = () => {
             dispatcher(clearFeed())
             
             // 5. User ko login pe fek do
-            navigate('/user/login', { replace: true });
+            navigate('/login', { replace: true });
         }
     }
 
