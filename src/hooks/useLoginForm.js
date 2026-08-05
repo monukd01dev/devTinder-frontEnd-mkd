@@ -22,10 +22,10 @@ function useLoginForm() {
     } = useForm({
         resolver: zodResolver(loginSchema),
         // mode: "onTouched" // UX Masterstroke: Focus hatne par validation hogi
-        defaultValues: {
-            emailId: "rahul@email.com",
-            password: 'Password@123'
-        }
+        // defaultValues: {
+        //     emailId: "rahul@email.com",
+        //     password: 'Password@123'
+        // }
     });
 
     // 2. Mock API Call
