@@ -26,16 +26,16 @@ export default function Footer() {
                     <h3 className="text-xs font-bold uppercase tracking-widest text-base-content/40 mb-1">
                         Navigation
                     </h3>
-                    <Link to="/feed" className="text-sm text-base-content/70 hover:text-primary transition-colors">
+                    <Link to="app/feed" className="text-sm text-base-content/70 hover:text-primary transition-colors">
                         Explore Feed
                     </Link>
-                    <Link to="/connections" className="text-sm text-base-content/70 hover:text-primary transition-colors">
+                    <Link to="app/connections" className="text-sm text-base-content/70 hover:text-primary transition-colors">
                         My Connections
                     </Link>
-                    <Link to="/requests" className="text-sm text-base-content/70 hover:text-primary transition-colors">
+                    <Link to="app/requests/recieved" className="text-sm text-base-content/70 hover:text-primary transition-colors">
                         Pending Requests
                     </Link>
-                    <Link to="/profile" className="text-sm text-base-content/70 hover:text-primary transition-colors">
+                    <Link to="app/profile" className="text-sm text-base-content/70 hover:text-primary transition-colors">
                         Edit Profile
                     </Link>
                 </div>

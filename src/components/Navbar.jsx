@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Modal from "./Modal";
 import { useState } from "react";
 import LogoutConfirm from "./LogoutConfirm";
+import { FALLBACK_PROFILE_IMG } from "../utils/constants";
 
 function Navbar() {
     const user = useSelector((store) => store.user);
@@ -82,7 +83,7 @@ function Navbar() {
                                 <div className="w-8 h-8 md:w-10 md:h-10 rounded-full overflow-hidden">
                                     <img
                                         alt={user.firstName}
-                                        src={user.photoUrl || "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"}
+                                        src={user.photoUrl || FALLBACK_PROFILE_IMG}
                                         className="w-full h-full object-cover"
                                     />
                                 </div>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Info, ChevronDown } from "lucide-react";
 import { formatUserEnteredName } from "../utils/helper";
+import { FALLBACK_PROFILE_IMG } from "../utils/constants";
 
 function UserCard({ user }) {
     const [showAbout, setShowAbout] = useState(false);
@@ -28,7 +29,7 @@ function UserCard({ user }) {
             <div className="relative w-full h-full bg-base-300 rounded-[2rem] overflow-hidden isolate z-0">
 
                 <img
-                    src={photoUrl || "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"}
+                    src={photoUrl || FALLBACK_PROFILE_IMG}
                     alt={firstName}
                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
